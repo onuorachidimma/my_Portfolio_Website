@@ -117,7 +117,7 @@ a{
     height: 30px;
 }
 
-.socialHandlesContainer{
+.socialHandlesContainer, .socialHanlesDivFooter{
     display: flex;
     gap: 12px;
 }
@@ -147,6 +147,7 @@ a{
 /* MAIN */
 main{
     border-top: 1px solid #484848;
+    margin-bottom: 300px;
 }
 
 .faeturedProjects{
@@ -202,4 +203,30 @@ main{
     font-size: 16px;
     display: flex;
     justify-content: space-between;
+}
+
+/* FOOTER */
+footer{
+    border-top: 1px solid #484848;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myContactInfo{
+    width: 48%;
+}
+
+.sendAMessage{
+    width: 48%;
+}
+
+.socialHandles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: block;
 }
