@@ -7,13 +7,17 @@
 body{
     background-color: #0A0A0A;
     color: #FFF;
-    padding: 26px 60px;
 }
 
+/* HEADER */
+header, main, footer{
+    padding: 26px 60px;
+}
 /* NAV BAR */
 nav{
     display: flex;
     justify-content: space-between;
+    color: #C7C7C7;
 }
 
 nav p{
@@ -63,6 +67,7 @@ a{
 .briefIntroduction{
     font-family: "Manrope", sans-serif;
     margin-bottom: 40px;
+    line-height: 27px;
 }
 
 .heroContactContainer{
@@ -137,4 +142,64 @@ a{
     width: 100%;
     object-fit: contain;
     border-radius: 20px;
+}
+
+/* MAIN */
+main{
+    border-top: 1px solid #484848;
+}
+
+.faeturedProjects{
+    font-size: 70px;
+}
+
+.projectIntro{
+    width: 37%;
+}
+
+.projectContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectImage{
+    width: 50%;
+    height: auto;
+    background-color: #484848;
+    padding: 60px 50px;
+    border-radius: 12px;
+}
+
+.projectImage img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.projectDetailsContainer{
+    width: 50%;
+    padding-left: 48px;
+    font-family: Manrope;
+    align-self: center;
+}
+
+.projectName{
+    margin-bottom: 18px;
+}
+
+.projectInfo{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+
+.moreInfo, .projectInfo{
+    border-bottom: 1px solid #484848;
+}
+
+.moreInfo{
+    padding: 16px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
 }
