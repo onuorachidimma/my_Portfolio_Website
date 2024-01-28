@@ -96,7 +96,7 @@
     <footer>
         <section class="myContactInfo">
             <p class="nameIntro faeturedProjects">Let's connect</p>
-            <p class="briefIntroduction projectDetails">Say hello at onuorachidimma4@gmail.com <br> For more info, here is my <a href="">resume</a></p>
+            <p class="briefIntroduction projectDetails">Say hello at <span class="resumeU">onuorachidimma4@gmail.com</span> <br> For more info, here is my <a href="" class="resumeU">resume</a></p>
             <div class="socialHanlesDivFooter">
                 <a href="https://www.linkedin.com/in/chidimma-onuora-248050176/" target="_blank" class="socialHandles">
                     <svg class="linkedinLogo" width="20" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.007.593v13.15h4.083V7.24c0-1.716.323-3.378 2.45-3.378 2.099 0 2.125 1.962 2.125 3.486v6.397h4.085V6.533c0-3.543-.763-6.265-4.903-6.265-1.988 0-3.32 1.09-3.865 2.123h-.056V.593h-3.92Zm-6.654 0h4.09v13.15H.353V.593Z" fill="#D3E97A"/></svg>
@@ -115,14 +115,14 @@
         <section class="sendAMessage">
             <form action="" method="post">
                 <label for="name">Name</label>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" required>
                 <label for="subject">Subject</label>
                 <input type="text" id="subject">
                 <label for="tArea">Message</label>
-                <textarea name="t-area" id="tArea" cols="30" rows="10"></textarea>
-                <button class="submitButton" type="button">Submit</button>
+                <textarea name="t-area" id="tArea" cols="30" rows="10" minlength="1" maxlength="2000" required></textarea>
+                <button class="submitButton downloadResumeButton" type="submit">Submit</button>
             </form>
         </section>
     </footer>
